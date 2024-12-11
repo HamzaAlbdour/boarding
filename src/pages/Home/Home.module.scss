@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.price {
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.checkoutBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+
+  > div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+}
